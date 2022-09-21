@@ -1,0 +1,126 @@
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  ul {
+  list-style: none;
+  }
+  
+  a, .address-contacts {
+  text-decoration: none;
+  font-style: normal;
+  }
+
+  :root {
+    --main-color: #212121;
+    --color-text: #757575;
+    --main-text-height: 1.62;
+    --text-height: 1.71;
+  }
+
+/* ------------------------NAVIGATION---------------------------- */
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+  }
+
+.logo-style {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+.nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+}
+.nav-contacts {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--color-text);
+}
+
+.nav:hover,
+.nav-contacts:hover {
+  color: #2196F3;
+}
+
+/* ------------------------BUTTONS---------------------------- */
+
+.btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);    
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #FFFFFF;
+}
+
+/* ------------------------BUTTONS---------------------------- */
+
+.btn {
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #FFFFFF;
+}
+
+/* ------------------------PROJECTS---------------------------- */
+
+.project-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-color);
+}
+.project-text {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--color-text);
+}
+
+/* ------------------------FOOTER---------------------------- */
+
+.address {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;  
+}
+
+.address-contacts {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
